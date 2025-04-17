@@ -1,0 +1,6 @@
+- name: My Hello World Sample 0417
+  hosts: all
+  tasks:
+    - name: Hello Message 0417
+      debug:
+        msg: {{message}}
